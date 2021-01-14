@@ -6,20 +6,23 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Personal Website</title>
   <link rel="stylesheet" href="styles/index.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet"> 
 </head>
-
 <body>
   <header id="header">
-    <h1>Eileen Fuerstenau</h1>
+    <h1>Eileen Fürstenau</h1>
     <nav>
       <a href="#contact">Contact</a>
       <a href="#bio">Bio</a>
     </nav>
   </header>
   <main>
-    <section>
-      <img src="images/eileen.jpg" alt="" width="20%"> <br>
+    <section class="intro">
+      <img src="images/eileen.jpg" alt=""> <br>
       Former Sales Manager, on my way to become a Web Developer.
+    </section>
+    <section class="interests">
       <h2>Interests and Skills</h2>
       <ul>
         <li>Sales Management</li>
@@ -29,17 +32,14 @@
         <li>Price Calculation</li>
         <li>Contract Law</li>
       </ul>
+    </section>  
+    <h3 id="contact">Contact Information</h3> <br>
+    <section class="social">
+        <a href="https://github.com/eileenfuerstenau"><img src="./images/github.png" alt="github"></a>
+        <a href="https://codepen.io/eileenfue"><img src="./images/codepen.png" alt="codepen"> </a>
+        <a href="https://de.linkedin.com/in/eileen-f%C3%BCrstenau-37634b169"> <img src="./images/linkedin.png" alt="linkedin"></a>
     </section>
-    <section>
-      <h3 id="contact">Contact Information</h3>
-        <img src="./images/github.png" alt="github" width="10%"> <br>
-        <a href="https://github.com/eileenfuerstenau">Check out my profile on Github</a> <br>
-        <img src="./images/codepen.png" alt="codepen" width="20%"> <br>
-        <a href="https://codepen.io/eileenfue">Check out my profile on Codepen</a> <br> 
-        <img src="./images/linkedin.png" alt="linked" width="10%"> <br>
-        <a href="https://de.linkedin.com/in/eileen-f%C3%BCrstenau-37634b169">Check out my profile on Linkedin</a> 
-    </section>
-    <section>
+    <section class= "aboutme">
       <p>Hi folks!<br> I am an experienced Sales Manager with a demonstrated history of working in the information
         technology and services industry, so far skilled in Sales Management and Business Administration. Looking for
         new challenges, I jumped into the neuefische Bootcamp to learn how to code. I am sure there is an intense but
@@ -47,7 +47,7 @@
     </section>
     <section>
       <h3>Work Experience</h3>
-      <table id="bio">
+      <table id="bio" class="work">
         <tr>
           <td>2018 - 2020</td>
           <td>Sales Manager, IBM Corp.</td>
@@ -66,7 +66,7 @@
         </tr>
       </table>
       <h3>Education</h3>
-      <table>
+      <table class= "education">
         <tr>
           <td>2020</td>
           <td>neuefische Web Development Bootcamp</td>
@@ -82,7 +82,7 @@
       </table>
     </section>  
   </main>
-    <footer>
+    <footer class="footer">
       <a href="#header">Back to top</a> 
     </footer>
 </body>

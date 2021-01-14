@@ -1,1 +1,39 @@
-body {background: hotpink}
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 112.5%;
+    line-height: 1.5;
+}
+
+header {
+    background-color: #e9e6e8;
+    padding: 0;
+    margin: 0 10 0 10;
+}
+
+a{
+    text-decoration: none;
+    border-bottom: 1px solid;
+}
+
+h2, h3 {
+    font-size: 125%;
+}
+
+.interests {
+    background-color: #e9e6e8;
+}
+
+.social {
+ display: flex;
+ justify-content: space-evenly;
+ text-decoration: none;
+}
+
+.aboutme {
+    background-color: #e9e6e8;
+    color: black;
+}
+
+.footer {
+    background-color: #9a9792;
+}
