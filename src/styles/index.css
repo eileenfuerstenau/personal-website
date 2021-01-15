@@ -64,14 +64,17 @@ header {
 
 .skillslist {
   display: grid;
-  grid-template-rows: auto auto auto auto auto auto;
-  grid-template-columns: 5fr 2fr;
+  grid-template-rows: auto;
+  grid-template-columns: 180px 90px;
+  align-items: start;
 }
 
 .progress {
   list-style: none;
   align-self: left;
   justify-self: start;
+  margin-left: 20px;
+  margin-right: 10px;
 }
 
 .social {
