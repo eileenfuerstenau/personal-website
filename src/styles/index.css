@@ -3,6 +3,9 @@ white: #ffffff
 light: #e9e6e8
 dark: #9a9792
 */
+html {
+  scroll-behavior: smooth;
+}
 
 body {
   background-color: #ffffff;
@@ -10,6 +13,12 @@ body {
   font-size: 112.5%;
   line-height: 1.5;
   margin: 0;
+}
+
+main {
+  display: grid;
+  grid-template-rows: auto auto auto auto auto auto;
+  grid-template-columns: 100%;
 }
 
 a {
@@ -23,21 +32,46 @@ h3 {
 }
 
 header {
-  display: flex;
+  display: grid;
+  grid-template-rows: auto auto;
+  grid-template-columns: 5fr 2fr;
   background-color: #e9e6e8;
   padding: 5px;
   margin: 0;
+  border-radius: 10px;
+}
+
+.mainnav {
+  justify-self: end;
 }
 
 .intro {
   margin-top: 5px;
   text-align: center;
   padding-bottom: 10px;
+  border-radius: 10px;
+}
+
+.profilepic {
+  border-radius: 10px 15%;
 }
 
 .interests {
   background-color: #e9e6e8;
   padding: 5px;
+  border-radius: 10px;
+}
+
+.skillslist {
+  display: grid;
+  grid-template-rows: auto auto auto auto auto auto;
+  grid-template-columns: 5fr 2fr;
+}
+
+.progress {
+  list-style: none;
+  align-self: left;
+  justify-self: start;
 }
 
 .social {
@@ -46,6 +80,7 @@ header {
   grid-template-columns: 33% 33% 33%;
   justify-content: space-evenly;
   padding: 5px 5px 20px 5px;
+  border-radius: 10px;
 }
 
 .contact {
@@ -61,10 +96,12 @@ header {
   background-color: #e9e6e8;
   color: black;
   padding: 5px;
+  border-radius: 10px;
 }
 
 .work {
   padding: 5px;
+  border-radius: 10px;
 }
 
 .year {
@@ -73,13 +110,44 @@ header {
 
 .education {
   padding: 0 5px 20px 5px;
+  border-radius: 10px;
 }
 
 .footer {
   background-color: #9a9792;
+  border-radius: 10px 10px 0 0;
 }
-@media (max-width: 850px) main {
-  display: grid;
-  grid-template-rows: auto auto auto;
-  grid-template-columns: 50% 50%;
+
+@media (min-width: 750px) {
+  main {
+    grid-template-columns: 50% 50%;
+    grid-template-rows: auto auto auto;
+    grid-auto-flow: dense;
+  }
+}
+
+@media (min-width: 750px) {
+  .interests {
+    background-color: white;
+  }
+}
+
+@media (min-width: 750px) {
+  .social {
+    background-color: #e9e6e8;
+    grid-column: 2;
+    border-radius: 0 10px 10px 0;
+  }
+}
+
+@media (min-width: 750px) {
+  .aboutme {
+    border-radius: 10px 0 0 10px;
+  }
+}
+
+@media (min-width: 750px) {
+  .intro {
+    grid-column: 2;
+  }
 }
