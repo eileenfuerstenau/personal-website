@@ -1,90 +1,120 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Personal Website</title>
-  <link rel="stylesheet" href="styles/index.css">
-  <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet"> 
-</head>
-<body>
-  <header id="header">
-    <h1>Eileen Fürstenau</h1>
-    <nav>
-      <a href="#contact">Contact</a>
-      <a href="#bio">Bio</a>
-    </nav>
-  </header>
-  <main>
-    <section class="intro">
-      <img src="images/eileen.jpg" alt=""> <br>
-      Former Sales Manager, on my way to become a Web Developer.
-    </section>
-    <section class="interests">
-      <h2>Interests and Skills</h2>
-      <ul>
-        <li>Sales Management</li>
-        <li>Software Support Services</li>
-        <li>Customer Consulting</li>
-        <li>Contract Negotiation</li>
-        <li>Price Calculation</li>
-        <li>Contract Law</li>
-      </ul>
-    </section>  
-    <h3 id="contact">Contact Information</h3> 
-    <section class="social">
-        <a href="https://github.com/eileenfuerstenau"><img src="./images/github.png" alt="github"></a>
-        <a href="https://codepen.io/eileenfue"><img src="./images/codepen.png" alt="codepen"> </a>
-        <a href="https://de.linkedin.com/in/eileen-f%C3%BCrstenau-37634b169"> <img src="./images/linkedin.png" alt="linkedin"></a> 
-    </section>
-    <section class= "aboutme">
-      <p>Hi folks!<br> I am an experienced Sales Manager with a demonstrated history of working in the information
-        technology and services industry, so far skilled in Sales Management and Business Administration. Looking for
-        new challenges, I jumped into the neuefische Bootcamp to learn how to code. I am sure there is an intense but
-        very educational time ahead.</p>
-    </section>
-    <section>
-      <h3>Work Experience</h3>
-      <table id="bio" class="work">
-        <tr>
-          <td>2018 - 2020</td>
-          <td>Sales Manager, IBM Corp.</td>
-        </tr>
-        <tr>
-          <td>2017 - 2018</td>
-          <td>Volunteer Student Sevices, DAAD Vietnam</td>
-        </tr>
-        <tr>
-          <td>2015 - 2017</td>
-          <td>Master@IBM Student, IBM Corp.</td>
-        </tr>
-        <tr>
-          <td>2012 - 2015</td>
-          <td>Corporate Student, Continental AG</td>
-        </tr>
-      </table>
-      <h3>Education</h3>
-      <table class= "education">
-        <tr>
-          <td>2020</td>
-          <td>neuefische Web Development Bootcamp</td>
-        </tr>
-        <tr>
-          <td>2017</td>
-          <td>M. Sc. Sales Management</td>
-        </tr>
-        <tr>
-          <td>2015</td>
-          <td>B. A. Business Administration</td>
-        </tr>
-      </table>
-    </section>  
-  </main>
-  <footer class="footer">
-      <a href="#header">Back to top</a> 
-  </footer>
-</body>
-
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal Website Eileen</title>
+    <link rel="stylesheet" href="styles/index.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header id="header">
+      <h1>Eileen Fürstenau</h1>
+      <nav>
+        <a href="#contact">Contact</a>
+        <a href="#bio">Bio</a>
+      </nav>
+    </header>
+    <main>
+      <section class="intro">
+        <img src="images/eileen.jpg" alt="" /> <br />
+        Former Sales Manager, on my way to become a Web Developer.
+      </section>
+      <section class="interests">
+        <h2>Interests and Skills</h2>
+        <ul>
+          <li>Sales Management <progress value="90" max="100"></progress></li>
+          <li>
+            Software Support Services <progress value="80" max="100"></progress>
+          </li>
+          <li>
+            Customer Consulting <progress value="80" max="100"></progress>
+          </li>
+          <li>
+            Contract Negotiation <progress value="70" max="100"></progress>
+          </li>
+          <li>Price Calculation<progress value="70" max="100"></progress></li>
+          <li>Contract Law <progress value="60" max="100"></progress></li>
+        </ul>
+      </section>
+      <section class="social">
+        <h3 id="contact" class="contact">Contact Information</h3>
+        <a href="https://github.com/eileenfuerstenau" class="icon">
+          <img src="images/github.png" alt="github" />
+        </a>
+        <a href="https://codepen.io/eileenfue" class="icon"
+          ><img src="images/codepen.png" alt="codepen" />
+        </a>
+        <a
+          href="https://de.linkedin.com/in/eileen-f%C3%BCrstenau-37634b169"
+          class="icon"
+        >
+          <img src="images/linkedin.png" alt="linkedin"
+        /></a>
+      </section>
+      <section class="aboutme">
+        <h3>About me</h3>
+        <p>
+          I am an experienced Sales Manager with a demonstrated history of
+          working in the information technology and services industry, so far
+          skilled in Sales Management and Business Administration. Looking for
+          new challenges, I jumped into the neuefische Bootcamp to learn how to
+          code. I am sure there is an intense but very educational time ahead.
+        </p>
+      </section>
+      <section class="work" id="bio">
+        <h3 class="work-title">Work Experience</h3>
+        <table>
+          <tr>
+            <td class="year">2020 - 2020</td>
+            <td class="work-item">Sales Manager, IBM Corp.</td>
+          </tr>
+          <tr>
+            <td class="year">2019 - 2019</td>
+            <td class="work-item">Sabbatical & Worldtrip</td>
+          </tr>
+          <tr>
+            <td class="year">2018 - 2018</td>
+            <td class="work-item">Sales Manager, IBM Corp.</td>
+          </tr>
+          <tr>
+            <td class="year">2017 - 2018</td>
+            <td class="work-item">Volunteer Student Sevices, DAAD Vietnam</td>
+          </tr>
+          <tr>
+            <td class="year">2015 - 2017</td>
+            <td class="work-item">Master@IBM Student, IBM Corp.</td>
+          </tr>
+          <tr>
+            <td class="year">2012 - 2015</td>
+            <td class="work-item">Corporate Student, Continental AG</td>
+          </tr>
+        </table>
+      </section>
+      <section class="education">
+        <h3 class="education-title">Education</h3>
+        <table>
+          <tr>
+            <td class="year">2020</td>
+            <td class="education-item">neuefische Web Development Bootcamp</td>
+          </tr>
+          <tr>
+            <td class="year">2017</td>
+            <td class="education-item">M. Sc. Sales Management</td>
+          </tr>
+          <tr>
+            <td class="year">2015</td>
+            <td class="education-item">B. A. Business Administration</td>
+          </tr>
+        </table>
+      </section>
+    </main>
+    <footer class="footer">
+      <a href="#header">Back to top</a>
+    </footer>
+  </body>
 </html>

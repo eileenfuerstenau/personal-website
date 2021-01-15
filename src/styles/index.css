@@ -1,57 +1,85 @@
+/*
+white: #ffffff
+light: #e9e6e8
+dark: #9a9792
+*/
+
 body {
-    font-family: 'Roboto', sans-serif;
-    font-size: 112.5%;
-    line-height: 1.5;
-    margin: 0;
+  background-color: #ffffff;
+  font-family: 'Roboto', sans-serif;
+  font-size: 112.5%;
+  line-height: 1.5;
+  margin: 0;
 }
 
 a {
-    text-decoration: none;
-    border-bottom: 1px solid;
+  text-decoration: none;
+  border-bottom: 1px solid;
 }
 
-h2, h3 {
-    font-size: 125%;
+h2,
+h3 {
+  font-size: 125%;
 }
 
 header {
-    display: flex;
-    background-color:  #e9e6e8;
-    padding: 0;
-    margin: 0;
+  display: flex;
+  background-color: #e9e6e8;
+  padding: 5px;
+  margin: 0;
 }
 
 .intro {
-    margin-top: 5px;
-    text-align: center;
+  margin-top: 5px;
+  text-align: center;
+  padding-bottom: 10px;
 }
 
-
 .interests {
-    background-color: #e9e6e8;
-    padding: 1px;
+  background-color: #e9e6e8;
+  padding: 5px;
 }
 
 .social {
-    display: flex;
-    justify-content: space-evenly;
-    border: 0;
+  display: grid;
+  grid-template-rows: auto auto;
+  grid-template-columns: 33% 33% 33%;
+  justify-content: space-evenly;
+  padding: 5px 5px 20px 5px;
+}
+
+.contact {
+  grid-column: 1 / 4;
+}
+
+.icon {
+  justify-self: center;
+  align-self: center;
 }
 
 .aboutme {
-    background-color: #e9e6e8;
-    color: black;
-    padding: 1px;
+  background-color: #e9e6e8;
+  color: black;
+  padding: 5px;
 }
 
-.work{
-    display: grid;
+.work {
+  padding: 5px;
 }
 
-.education{
-    display: grid;
+.year {
+  padding: 0 30px 5px 0;
+}
+
+.education {
+  padding: 0 5px 20px 5px;
 }
 
 .footer {
-    background-color: #9a9792;
+  background-color: #9a9792;
+}
+@media (max-width: 850px) main {
+  display: grid;
+  grid-template-rows: auto auto auto;
+  grid-template-columns: 50% 50%;
 }
