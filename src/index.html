@@ -15,13 +15,18 @@
     <header id="header">
       <h1>Eileen Fürstenau</h1>
       <nav class="mainnav">
-        <a href="#contact">Contact</a>
         <a href="#bio">Bio</a>
+        <a href="#contact">Contact</a> 
       </nav>
     </header>
     <main>
       <section class="intro">
-        <img src="images/eileen.jpg" alt="" class="profilepic" /> <br />
+        <picture>
+          <source media="(max-width: 1049px)" srcset="images/eileen.jpg">
+          <source media="(min-width: 1050px)" srcset="images/profilgross.jpg">
+          <img src="images/eileen.jpg" alt="">
+        </picture>
+        <br />
         Former Sales Manager, <br />
         on my way to become a Web Developer.
       </section>
@@ -31,7 +36,7 @@
           <li>Sales Management</li>
           <progress value="90" max="100" class="progress"></progress>
           <li>
-            SW Support Services
+            Strategic Planning
           </li>
           <progress value="80" max="100" class="progress"></progress>
           <li>
@@ -45,7 +50,7 @@
           <li>Price Calculation</li>
           <progress value="70" max="100" class="progress"></progress>
           <li>Contract Law </progress></li>
-          <progress value="60" max="100" class="progress"></progress>
+          <progress value="70" max="100" class="progress"></progress>
         </ul>
         <h2>Interests</h2>
         <ul>
@@ -83,7 +88,7 @@
         <h3 class="work-title">Work Experience</h3>
         <ul class="work">
             <li class="year">2020 - 2020 </li>
-            <li class="work-item">Sales Manager, IBM Corp.> </li>
+            <li class="work-item">Sales Manager, IBM Corp </li>
             <li class="year">2019 - 2019 </li>
             <li class="work-item">Sabbatical & Worldtrip</li>
             <li class="year">2018 - 2018</li>
