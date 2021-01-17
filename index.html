@@ -21,13 +21,14 @@
     </header>
     <main>
       <section class="intro">
-        <img srcset="
-        images/eileen.jpg 1x, 
-            images/profilgross.jpg 2x
-          " alt="…">
+        <picture>
+          <source srcset="images/profilgross.jpg" media="(min-width: 1050px)" />
+          <source srcset="images/eileen.jpg" media="(max-width: 1049px)" />
+          <img src="eileen.jpg" />
+        </picture>
         <br />
         Former Sales Manager, <br />
-        on my way to become a Web Developer. test
+        on my way to become a Web Developer. 
       </section>
       <section class="interests">
         <h2>Skills</h2>
