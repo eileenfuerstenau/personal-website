@@ -13,50 +13,41 @@
   </head>
   <body>
     <header id="header">
-      <h1>Eileen Fürstenau</h1>
-      <nav class="mainnav">
-        <a href="#bio">Bio</a>
-        <a href="#contact">Contact</a> 
+      <h1 class="header__name">Eileen Fürstenau</h1>
+      <nav class="header__mainnav">
+        <a href="#contact" class="header__element">Contact</a>
+        <a href="#about" class="header__element">About</a>
+        <a href="#bio" class="header__element"> Bio</a>
       </nav>
     </header>
     <main>
       <section class="intro">
         <picture>
-          <source media="(min-width: 1050px)" srcset="images/profilgross.jpg">
-          <source srcset="images/testbild.jpg">
-          <img src="images/testbild.jpg" alt="">
+          <source media="(min-width: 1050px)" srcset="images/profilgross.jpg" />
+          <source srcset="images/testbild.jpg" />
+          <img src="images/testbild.jpg" alt="" />
         </picture>
         <br />
         Former Sales Manager, <br />
-        on my way to become a Web Developer. 
+        on my way to become a Web Developer.
       </section>
       <section class="characteristics">
         <h2>Skills</h2>
         <ul class="characteristics__skillslist">
-          <li>Sales Management</li>
-          <progress value="90" max="100" class="characteristics__progress"></progress>
-          <li>
-            Strategic Planning
-          </li>
-          <progress value="80" max="100" class="characteristics__progress"></progress>
-          <li>
-            Customer Consulting 
-          </li>
-          <progress value="80" max="100" class="characteristics__progress"></progress>
-          <li>
-            Contract Negotiation 
-          </li>
-          <progress value="80" max="100" class="characteristics__progress"></progress>
-          <li>Price Calculation</li>
-          <progress value="70" max="100" class="characteristics__progress"></progress>
-          <li>Contract Law </progress></li>
-          <progress value="70" max="100" class="characteristics__progress"></progress>
+          <li class="characteristics__item">Sales Management</li>
+          <li class="characteristics__item">Strategic Planning</li>
+          <li class="characteristics__item">Customer Consulting</li>
+          <li class="characteristics__item">Contract Negotiation</li>
+          <li class="characteristics__item">Price Calculation</li>
+          <li class="characteristics__item">Contract Law</li>
         </ul>
         <h2>Interests</h2>
-        <ul>
-          <li>Kitesurfing</li>
-          <li>Tennis</li>
-          <li>Travel</li>
+        <ul class="characteristics__skillslist">
+          <li class="characteristics__item">Kitesurfing</li>
+          <li class="characteristics__item">Tennis</li>
+          <li class="characteristics__item">Travel</li>
+          <li class="characteristics__item">Yoga</li>
+          <li class="characteristics__item">Coding</li>
         </ul>
       </section>
       <section class="social">
@@ -74,7 +65,7 @@
           <img src="images/linkedin.png" alt="linkedin"
         /></a>
       </section>
-      <section class="aboutme">
+      <section id="about" class="aboutme">
         <h3>About me</h3>
         <p>
           I am an experienced Sales Manager with a demonstrated history of
@@ -87,35 +78,34 @@
       <section id="bio">
         <h3 class="cv__title">Work Experience</h3>
         <ul class="cv">
-            <li class="cv__year">2020 - 2020 </li>
-            <li class="cv__item">Sales Manager, IBM Corp </li>
-            <li class="cv__year">2019 - 2019 </li>
-            <li class="cv__item">Sabbatical & Worldtrip</li>
-            <li class="cv__year">2018 - 2018</li>
-            <li class="cv__item">Sales Manager, IBM Corp.</li>
-            <li class="cv__year">2017 - 2017</li>
-            <li class="cv__item">Volunteer Student Sevices, DAAD Vietnam</li>
-            <li class="cv__year">2015 - 2017</li>
-            <li class="cv__item">Master@IBM Student, IBM Corp.</li>
-            <li class="cv__year">2012 - 2015</li>
-            <li class="cv__item">Corporate Student, Continental AG</li>
+          <li class="cv__year">2020 - 2020</li>
+          <li class="cv__item">Sales Manager, IBM Corp</li>
+          <li class="cv__year">2019 - 2019</li>
+          <li class="cv__item">Sabbatical & Worldtrip</li>
+          <li class="cv__year">2018 - 2018</li>
+          <li class="cv__item">Sales Manager, IBM Corp.</li>
+          <li class="cv__year">2017 - 2017</li>
+          <li class="cv__item">Volunteer Student Sevices, DAAD Vietnam</li>
+          <li class="cv__year">2015 - 2017</li>
+          <li class="cv__item">Master@IBM Student, IBM Corp.</li>
+          <li class="cv__year">2012 - 2015</li>
+          <li class="cv__item">Corporate Student, Continental AG</li>
         </ul>
       </section>
       <section>
         <h3 class="cv__title">Education</h3>
         <ul class="cv__education">
-            <li class="cv__year">2020</li>
-            <li class="cv__item">neuefische Web Development Bootcamp</li>
-            <li class="cv__year">2017</li>
-            <li class="cv__item">M. Sc. Sales Management</li>
-            <li class="cv__year">2015</li>
-            <li class="cv__item">B. A. Business Administration</li>
-          </tr>
+          <li class="cv__year">2020</li>
+          <li class="cv__item">neuefische Web Development Bootcamp</li>
+          <li class="cv__year">2017</li>
+          <li class="cv__item">M. Sc. Sales Management</li>
+          <li class="cv__year">2015</li>
+          <li class="cv__item">B. A. Business Administration</li>
         </ul>
       </section>
     </main>
     <footer class="footer">
-      &copy; Eileen Fürstenau <br>
+      &copy; Eileen Fürstenau <br />
       <a href="#header">Back to top</a>
     </footer>
   </body>

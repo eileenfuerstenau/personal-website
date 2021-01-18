@@ -15,10 +15,13 @@
 .social__icon {
   justify-self: center;
   align-self: center;
-  box-shadow: 0 0 15px rgb(179, 178, 178);
+  display: flex;
+  width: 95px;
+  height: 95px;
   background-color: white;
+  padding: 10px;
+  box-shadow: 0 0 15px rgb(179, 178, 178);
   overflow: hidden;
-  margin: 10px;
   border-radius: 50%;
 }
 
