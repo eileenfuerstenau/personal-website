@@ -1,0 +1,29 @@
+.cv {
+  display: grid;
+  grid-template-rows: auto;
+  grid-template-columns: 30% 70%;
+  padding: 5px 5px 5px 8px;
+  border-radius: 10px;
+  list-style: none;
+}
+
+.cv__title {
+  padding-left: 8px;
+}
+
+.cv__year {
+  padding: 0 30px 5px 0;
+}
+
+.cv__education {
+  display: grid;
+  grid-template-rows: auto;
+  grid-template-columns: 30% 70%;
+  padding: 0 5px 20px 8px;
+  border-radius: 10px;
+  list-style: none;
+}
+
+.cv__title {
+  padding-left: 8px;
+}
