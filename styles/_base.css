@@ -30,11 +30,14 @@ main {
 
 a {
   text-decoration: none;
+  color: black;
 }
 
 h2,
 h3 {
-  font-size: 125%;
+  font-size: 140%;
+  color: #a6bf60;
+  font-family: serif;
 }
 
 img {

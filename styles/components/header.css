@@ -7,7 +7,7 @@ header {
 
 .header__name {
   align: center;
-  color: #83b300;
+  font-family: serif;
 }
 
 .header__mainnav {
@@ -17,7 +17,7 @@ header {
 }
 
 .header__element {
-  border-bottom: 1px solid var(--darkbeige);
+  border-bottom: 2px solid #a6bf60;
   color: black;
 }
 
