@@ -7,14 +7,19 @@
   border-radius: 10px;
 }
 
-.contact {
+.social__contact {
   grid-column: 1 / 4;
   padding-bottom: 40px;
 }
 
-.icon {
+.social__icon {
   justify-self: center;
   align-self: center;
+  box-shadow: 0 0 15px rgb(179, 178, 178);
+  background-color: white;
+  overflow: hidden;
+  margin: 10px;
+  border-radius: 50%;
 }
 
 @media (min-width: 750px) {
