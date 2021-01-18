@@ -1,0 +1,12 @@
+.aboutme {
+  background-color: var(--lightbeige);
+  color: black;
+  padding: 5px 5px 5px 8px;
+  border-radius: 10px;
+}
+
+@media (min-width: 750px) {
+  .aboutme {
+    border-radius: 10px 0 0 10px;
+  }
+}

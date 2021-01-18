@@ -1,0 +1,26 @@
+.social {
+  display: grid;
+  grid-template-rows: 30% 70%;
+  grid-template-columns: 33% 33% 33%;
+  justify-content: space-evenly;
+  padding: 5px 5px 20px 8px;
+  border-radius: 10px;
+}
+
+.contact {
+  grid-column: 1 / 4;
+  padding-bottom: 40px;
+}
+
+.icon {
+  justify-self: center;
+  align-self: center;
+}
+
+@media (min-width: 750px) {
+  .social {
+    background-color: var(--lightbeige);
+    grid-column: 2;
+    border-radius: 0 10px 10px 0;
+  }
+}
